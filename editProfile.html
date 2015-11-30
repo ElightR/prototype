@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+</head>
+<body>
+	<div data-role="page" id="loginPage">
+  <div data-role="header">
+    <h1>Simple Parenting</h1>
+  </div>
+ <div data-role="main" class="ui-content">	
+	<h1 style="text-align:center;">Edit Parent Profile</h1>
+	First Name:<input type="text" name="firstName"><br/>
+	Last Name: <input type="text" name="lastName"><br/>
+	Age:<input type="text" name="parentAge"><br/>
+	Home Number: <input type="text" name="homePhone"><br/>
+	Mobile Number: <input type="text" name="mobilePhone"><br/>
+	Email:<input type="text" name="email"><br/>
+	
+	<h2 style="text-align:center;">Information about child:</h2><br/>
+	First Name: <input type="text" name="kidFirstName"><br/>
+	Last Name: <input type="text" name="kidLastName"><br/>
+	Grade:<input type="text" name="grade"><br/>
+	
+	<div data-role="controlgroup" data-type="horizontal">
+		<input type="submit" id="edit" value="Save" Onclick="window.location.href='editProfile.html'">
+		<input type="button" id="cancel" value="Cancel" Onclick="window.location.href='editProfile.html'">
+		<input type="button" id="Back" value="Back" Onclick="window.location.href='fakeProfile.html'">
+	</div>
+ </div>
+	 <div data-role="footer">
+    <h1>Happy to be a Parent</h1>
+  </div>
+</div> 
+
+</body>
+</html>
