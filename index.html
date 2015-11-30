@@ -1,11 +1,28 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial=scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
 </head>
-	<body><h1><i>Simple Parenting</i></h1>
+	<body>
+	<div data-role="page" id="loginPage">
+  <div data-role="header">
+    <h1>Simple Parenting</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">	
 	<form>	
+		<h1 style="text-align:center;">Welcome to Simple Parenting</h1>
 		<INPUT Type="BUTTON" id="signinButton1" Value="Sign in" style="width:71px;" Onclick="window.location.href='signin.html'"><br/> 
 		<INPUT Type="BUTTON" id="register" Value="Register" Onclick="window.location.href='parentProfile.html'"> 
 	</form>
+ </div>
+		 <div data-role="footer">
+    <h1>Happy to be a Parent</h1>
+  </div>
 	</body>
 </html>
