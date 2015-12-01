@@ -13,33 +13,29 @@
 	
 	<script type="text/css" src="style.css" rel="stylesheet" ></script>
 	<script type="text/javascript" src="sliderStyle.js"></script>
-	
 </head>
 <body>
-<div data-role="page" id="loginPage">
-	  <div data-role="header">
-		<h1>Simple Parenting</h1>
-	  </div>
-	
+	<div data-role="page" id="loginPage">
+		<div data-role="header">
+			<h1>Simple Parenting</h1>
+		</div>
+	<div>
+		<ul class="rslides" style="list-style-type: none; float:center; margin-right:20px;">
+			<li><img src="images/family.png" alt="" style="width:100%;height:70%;"/></li>
+			<li><img src="images/children.jpg" alt="" style="width:100%;height:70%;"/></li>
+			<li><img src="images/kidsInSchooll.jpg" alt="" style="width:100%;height:70%;"/></li>
+		</ul>
+	</div>
 	<div data-role="main" class="ui-content">	
-		<form>	
-
-	<ul class="rslides" style="list-style-type: none;">
-
-		<li><img src="images/family.png" alt="" style="width:100%;height:70%;"></li>
-		<li><img src="images/kids.jpg" alt="" style="width:100%;height:70%;"></li>
-		<li><img src="images/kidsInSchooll.jpg" alt="" style="width:100%;height:70%;"></li>
-		
-	</ul>
-			
-	<h1 style="text-align:center;">Welcome to Simple Parenting</h1>
-	<INPUT Type="BUTTON" id="signinButton1" Value="Sign in" Onclick="window.location.href='signin.html'"><br/> 
-	<INPUT Type="BUTTON" id="register" Value="Register" Onclick="window.location.href='registration.html'"> 
+		<form>			
+			<h1 style="text-align:center;">Welcome to Simple Parenting</h1>
+			<INPUT Type="BUTTON" id="signinButton1" Value="Sign in" Onclick="window.location.href='signin.html'"><br/> 
+			<INPUT Type="BUTTON" id="register" Value="Register" Onclick="window.location.href='registration.html'"> 
 		</form>
 	 </div>
 	<div data-role="footer" data-position="fixed">
 		<h1>Happy to be a Parent</h1>
 	</div>
-</div>
+	</div>
 </body>
 </html>

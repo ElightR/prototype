@@ -8,46 +8,34 @@
 	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
 </head>
-	<body>
-	<div data-role="page" id="loginPage">
-  <div data-role="header">
-    <h1>Simple Parenting</h1>
-		<a href="index.html" data-icon="gear" class="ui-btn-left">Options</a>
-		<a href="index.html" data-icon="minus" class="ui-btn-right">Logout</a>
-  </div>
-  
-  <div data-role="page" id="city" class="demo-page" data-dom-cache="true" data-theme="b" data-prev="prevCity" data-next="nextCity" data-url="city">
-    <div role="main" class="ui-content">
-        <div id="trivia-city" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="a">
-            <a href="#" data-rel="back" class="ui-btn ui-btn-right ui-btn-b ui-btn-icon-notext ui-icon-delete ui-corner-all">Close</a>
-            <p>Here some text.</p>
-        </div><!-- /popup -->
-    </div><!-- /content -->
-</div>
-  
- <div data-role="main" class="ui-content">	
-	<h1 style="text-align:center;">Parent Profile</h1>
-	<strong>First Name:</strong> Lilia <br/>
-	<strong>Last Name:</strong> Kouchnir<br/>
-	<strong>Age:</strong>39<br/>
-	<strong>Home Number:</strong>519-897-7854<br/>
-	<strong>Mobile Number:</strong> 226-471-9632<br/>
-	<strong>email:</strong>lilia@gmail.com<br/>
-	
-	<h3>Information about child:</h3>
-	<strong>First Name:</strong> Emma<br/>
-	<strong>Last Name:</strong> Kouchnir<br/>
-	<strong>Grade:</strong>4<br/>
-	
-		
-	<div data-role="controlgroup" data-type="horizontal">
-		<input type="submit" id="edit" value="Edit" Onclick="window.location.href='editProfile.html'">
-	</div>
-	
- </div>
-	 <div data-role="footer" data-position="fixed">
-    <h1>Happy to be a Parent</h1>
-  </div>
-</div> 
-	</body>
+<body>
+	<div data-role="page" id="fakeprofile">
+	  <div data-role="header">
+		<h1>Simple Parenting</h1>
+			<a data-icon="gear" class="ui-btn-left" Onclick="window.location.href='index.html'">Options</a>
+			<a data-icon="minus" class="ui-btn-right" Onclick="window.location.href='index.html'">Logout</a>
+	  </div>
+	 <div data-role="main" class="ui-content">	
+		<h1 style="text-align:center;">Parent Profile</h1>
+		<img src="images/mother.jpg" style="width:10%;height:15%;"><br/>
+		<strong>First Name:</strong> Lilia <br/>
+		<strong>Last Name:</strong> Kouchnir<br/>
+		<strong>Age:</strong>39<br/>
+		<strong>Home Number:</strong>519-897-7854<br/>
+		<strong>Mobile Number:</strong> 226-471-9632<br/>
+		<strong>email:</strong>lilia@gmail.com<br/>
+		<h3>Information about child:</h3>
+		<img src="images/child.png" style="width:10%;height:15%;"><br/>
+		<strong>First Name:</strong> Emma<br/>
+		<strong>Last Name:</strong> Kouchnir<br/>
+		<strong>Grade:</strong>4<br/>
+		<div data-role="controlgroup" data-type="horizontal">
+			<input type="submit" id="edit" value="Edit" Onclick="window.location.href='editProfile.html'">
+		</div>
+	 </div>
+		 <div data-role="footer" data-position="fixed">
+		<h1>Happy to be a Parent</h1>
+	  </div>
+	</div> 
+</body>
 </html>
